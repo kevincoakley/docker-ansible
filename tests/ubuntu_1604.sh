@@ -4,7 +4,7 @@ DOCKER_OUTPUT=`docker run --name my_ubuntu16.04-ansible -ti kevincoakley/ubuntu1
 
 echo $DOCKER_OUTPUT
 
-if [[ $DOCKER_OUTPUT == *"ansible 2.0.0.2"* ]];
+if [[ $DOCKER_OUTPUT == *"ansible 2.1.0.0"* ]];
 then
     exit 0;
 else
