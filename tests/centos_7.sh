@@ -4,7 +4,7 @@ DOCKER_OUTPUT=`docker run --name my_centos7-ansible -ti kevincoakley/centos7-ans
 
 echo $DOCKER_OUTPUT
 
-if [[ $DOCKER_OUTPUT == *"ansible 2.2.0.0"* ]];
+if [[ $DOCKER_OUTPUT == *"ansible 2.2.1.0"* ]];
 then
     exit 0;
 else
